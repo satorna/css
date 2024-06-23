@@ -94,19 +94,47 @@
 		border-image: linear-gradient(to top right, #1565c0, #000, #1565c0) 3;
 	}
 	#navbut_user{
+		float: right;
 		font-size:15px;
 		font-weight:100;
 		position:absolute;
 		top:50%;
 		margin-top:-22.5px;
-		right:50px;
+		right:120px;
 		position:stalic;
-		width:100px;
+		width:80px;
 		color:rgb(255,255,255);
 		height:45px;
 		background-color: rgba(23, 38, 78, 0.957);
 		border-radius:50px;
 		border:none;
 		position:stalic;
+		vertical-align: middle;
 	}
-	
+	#navName2{
+		float: right;
+		position:absolute;
+		top:50%;
+		margin-top:-22.5px;
+		right: 55px;
+		vertical-align: middle;
+		background: transparent;
+		border: none;
+	}
+	#loginLogo{
+		width: 45px;
+		height: 45px;
+	}
+	#navName3{
+		color: #182953;
+		font-size: 45px;
+		font-weight: 100;
+		float: right;
+		position:absolute;
+		top:50%;
+		margin-top:-27.5px;
+		right: 30px;
+		vertical-align: middle;
+		background: transparent;
+		border: none;
+	}
