@@ -1,4 +1,4 @@
-#topBTN{
+#topBTNL,#topBTNR{
 		float: left;
 		line-height: 0px;
 		vertical-align: middle;
@@ -8,7 +8,7 @@
 		height: 50px;
 		filter:brightness(3.2);
 	}
-	#topBTN:hover{cursor: pointer;transform: scale(1.05);}
+	#topBTNL:hover,#topBTNR:hover{cursor: pointer;transform: scale(1.05);}
 	#hmIMG{
 		margin-left: 35px;
 		margin-right: 35px;
